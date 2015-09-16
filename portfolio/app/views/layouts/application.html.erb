@@ -9,8 +9,38 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+        		<h1>Gerda39</h1>
+          </div>
+        </div>
+        <ul class="pull-left">
+          <li><a href="#">Welcome</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+        <ul class = "pull-right">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  
+  <%= yield %>
 
-<%= yield %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-11">
+        <a href="https://www.facebook.com/lyd.lyd.3"><img src="https://dl.dropbox.com/s/4x1q2q7axs3ewo1/facebook55.png"/></a>
+        <a href="https://twitter.com/Gerda390"><img src="https://dl.dropbox.com/s/mvbil3kl6m0tqdo/bird1.png?dl=0"/></a>
+      </div>
+      <div class="col-md-1">
+        <p>© 2015 Gerda39</p>
+      </div>
+    </div>
+	</div>
 
 </body>
 </html>
